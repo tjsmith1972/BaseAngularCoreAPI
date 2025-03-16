@@ -4,10 +4,11 @@
     <li *ngFor="let user of users">
         {{ user.userName }}
     </li>
-
-    <!-- @for (user of this.users; track user.id) {
+</ul>
+<ul>
+     @for (user of this.users; track user.id) {
         <li>
-            {{user.username}}
+            {{user.userName}}
         </li>
-    } -->
+    }
 </ul>
