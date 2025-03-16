@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   logoAlt = 'FarmacyRVA Logo';
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    var x = 5;
   }
   
 }
